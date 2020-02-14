@@ -60,11 +60,15 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 * {
 	box-sizing: border-box; 	
+}
+
+body p{
+	line-height: 22px;
 }
 
 
@@ -89,7 +93,7 @@ nav a{
 	text-decoration: none;
 	padding: 32px;
 	color: black;
-	width: 50%;;
+	width: 50%;
 }
 
 .links {
@@ -103,10 +107,13 @@ nav a:hover{
 }
 
 .logo{
-	width: 60%;
+	width: 100%;
 	display: flex;
 	justify-content: flex-end;
+}
 
+.logo a, img{
+	padding: 0;
 }
 
 
@@ -235,3 +242,25 @@ footer address{
 #footer a:hover{
 	font-weight: bolder;
 }
+
+/*styling for the services page*/
+
+/*styling for hero image*/
+
+.services-header-img {
+	width: 100%;
+}
+
+/*styling for text under image*/
+
+.services-text h2{
+	font-size: 30px;
+}
+
+.services-text{
+	margin: 50px 0;
+}
+
+/*syling boxes*/
+
+
