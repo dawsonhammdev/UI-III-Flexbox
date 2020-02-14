@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/*ol, ul {
 	list-style: none;
-}
+}*/
 blockquote, q {
 	quotes: none;
 }
@@ -85,7 +85,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
+	padding: 5px;
 
 }
 
@@ -107,9 +107,7 @@ nav a:hover{
 }
 
 .logo{
-	width: 100%;
 	display: flex;
-	justify-content: flex-end;
 }
 
 .logo a, img{
@@ -258,9 +256,66 @@ footer address{
 }
 
 .services-text{
-	margin: 50px 0;
+	margin: 15px 0;
 }
 
 /*syling boxes*/
 
+.boxes{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	margin: 15px 0;
 
+}
+
+.boxes div{
+	width: 520px;
+	height: 270px;
+	border: solid black 1px;
+	background-color: rgb(241, 238, 238);
+	padding: 30px;
+	margin: 10px;
+}
+
+.boxes div button{
+	background-color: rgb(255, 255, 255);
+	margin-top: 30px;
+}
+
+.boxes div h2{
+	font-size: 20px;
+}
+
+/*styling of the bottom section*/
+
+.text-bottom h2{
+	font-size: 20px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0 50px 0;
+
+}
+
+.text-bottom{
+	width: 50%;
+}
+
+ul{
+	margin-top: 20px;
+	margin-left: 22px;
+}
+
+ul li{
+	line-height: 30px;
+}
+
+/*style bottom bar*/
+
+.footer{
+	text-align: center;
+	margin: 120px 0 20px 0;
+}
